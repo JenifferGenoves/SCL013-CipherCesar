@@ -1,4 +1,9 @@
-body {font-family: 'Rubik', sans-serif;     
+.container {
+    width:100%;
+    margin:0px auto;
+    font-size:1em;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 15px;
 }
 
 #root{
@@ -111,7 +116,7 @@ h2 {
     left: 400px;
     top: 98px;
 
-    background: rgba(40, 188, 198, 0.92);
+    background: rgb(173, 216, 230);
     border-radius: 10px;
 }
     
@@ -141,7 +146,7 @@ h2 {
     top: 198px;
 
     background: #FFFFFF;
-    border: 1px solid rgba(40, 188, 198, 0.92);
+    border: 1px solid rgb(173, 216, 230);
     box-sizing: border-box;
     border-radius: 11px;
 
@@ -192,7 +197,7 @@ h2 {
     top: 366px;
 
     background: #FFFFFF;
-    border: 1px solid rgba(40, 188, 198, 0.92);
+    border: 1px solid rgb(173, 216, 230);
     box-sizing: border-box;
     border-radius: 11px;
 
@@ -254,7 +259,7 @@ h2 {
     top: 431px;
 
     background: white;
-    border: 1px solid rgba(40, 188, 198, 0.92);
+    border: 1px solid rgb(173, 216, 230);
     box-sizing: border-box;
     border-radius: 11px;
 }
@@ -352,3 +357,60 @@ h2 {
     border-radius: 5px;
 
 }
+/* pantalla media maximo 980px */
+/* @media screen and (max-width:980px) {
+    .container {
+      width:98%;
+    }
+    section {
+      width:68%;
+    }
+  }
+  
+  /* pantalla media maximo 700px */
+  /* @media screen and (max-width:700px) {
+    aside,section {
+      float:none;
+      width:96%;
+      font-size:1.2em;
+    }
+    nav, section {
+      font-size:1.2em;
+    }
+    aside {
+      margin-top:5px;
+      background:#333;
+      color: #fff;
+    }
+    nav ul {
+      float:none;
+      clear:both;
+    }
+  }
+   */
+  
+  /* pantalla media maximo 480px */
+  /* @media screen and (max-width:480px) {
+    aside {
+      display:block;
+      background:#333;
+      color: #fff;
+      font-size:1.5em;
+    }
+    nav, section {
+      font-size:1.5em;
+    }
+    section {
+      width:94%;
+    }
+    nav ul {
+      display: table;
+      text-align: center;
+      float: none;
+      width:100%;
+    }
+    nav ul li {
+      float:none;
+    }
+  }
+   */ 
