@@ -46,5 +46,5 @@ for (let i=0; i < newTextTwo.length; i++){
   } 
    
 };
-// const formula = window.cipher;
-// export default formula; 
+const formula = window.cipher;
+export default formula; 
