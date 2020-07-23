@@ -1,6 +1,6 @@
 // Importamos el objeto `cipher`, que contiene los métodos `encode` y `decode`
-import cipher from '../src/cipher';
-
+import cipher from '../src/cipher.js';
+// console.log(cipher)
 describe('cipher', () => {
 
   test('should be an object', () => {
@@ -8,6 +8,9 @@ describe('cipher', () => {
   });
 
   describe('cipher.encode', () => {
+    test('deberia retornar una funion', () => {
+      expect(typeof cipher.encode).toBe('function');
+    })
 
     test('should be a function', () => {
       expect(typeof cipher.encode).toBe('function');
@@ -19,7 +22,7 @@ describe('cipher', () => {
     
   });
 
-  describe('cipher.decode', () => {
+ describe('cipher.decode', () => {
 
     test('should be a function', () => {
       expect(typeof cipher.decode).toBe('function');
@@ -30,5 +33,5 @@ describe('cipher', () => {
     });
 
   });
-
+  
 });
